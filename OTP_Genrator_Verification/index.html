@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>OTP Varification</h2>
+
+        <p>Please enter varification code sent to :
+            <span id="mobile">(000) 000-0000</span>
+        </p>
+
+        <p>The OTP will expired in
+            <span id="expire">30</span>
+        </p>
+
+        <div class="row">
+            <input type="number"/>
+            <input type="number" disabled/>
+            <input type="number" disabled/>
+            <input type="number"disabled/>
+        </div>
+        <button type="button">Varify OTP</button>
+
+        <P>
+            Didn't received code?
+            <a href="javascript:void(0)" id="Request">Request again!</a>
+        </P>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
